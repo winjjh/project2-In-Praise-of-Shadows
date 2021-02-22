@@ -1,0 +1,107 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Aileron regular";
+    margin: 2em;
+    font-size: 16px;
+    background: black;
+}
+
+.main {
+    color: white;
+}
+
+.shadow-one {
+    padding: 20px;
+    transition: .3s ease;
+
+}
+
+.shadow-two {
+    padding: 20px;;
+}
+
+.shadow-three {
+    padding: 20px;
+}
+
+.shadow-four {
+  padding: 20px;
+}
+
+.shadow-one-showup {
+    visibility: hidden;
+    position: absolute;
+    bottom: 30%;
+    transform: rotate(10deg);
+    font-weight: 100;
+    padding: 10px;
+    opacity: 1;
+    color: #faf6ca;
+}
+
+.shadow-one:hover {
+    opacity: 1;
+  }
+  
+  .shadow-one:hover .shadow-one-showup {
+    visibility: visible;
+  }
+  
+  .shadow-two-showup {
+    visibility: hidden;
+    position: absolute;
+    bottom: 20%;
+    transform: rotate(10deg);
+    font-weight: 100;
+    padding: 10px;
+    opacity: 0.7;
+    color: #faf6ca;
+}
+
+.shadow-two:hover {
+    opacity: 1;
+  }
+  
+  .shadow-two:hover .shadow-two-showup {
+    visibility: visible;
+  }
+
+  .shadow-three-showup {
+    visibility: hidden;
+    position: absolute;
+    bottom: 10%;
+    transform: rotate(10deg);
+    font-weight: 100;
+    padding: 10px;
+    opacity: 0.5;
+    color: #faf6ca;
+}
+
+.shadow-three:hover {
+    opacity: 1;
+  }
+  
+  .shadow-three:hover .shadow-three-showup {
+    visibility: visible;
+  }
+
+
+  .shadow-four-showup {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0.5%;
+    transform: rotate(340deg);
+    font-weight: 100;
+    padding: 10px;
+    opacity: 0.5;
+    color: #faf6ca;
+}
+
+.shadow-four:hover {
+    opacity: 1;
+  }
+  
+  .shadow-four:hover .shadow-four-showup {
+    visibility: visible;
+  }

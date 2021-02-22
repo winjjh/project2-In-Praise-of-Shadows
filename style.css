@@ -1,0 +1,162 @@
+/* CSS files add styling rules to your content */
+@font-face {
+    font-family: 'Aileron Regular';
+  src: url(".assets/Aileron-Regular.woff") format("woff");
+}
+    
+
+@font-face {
+    font-family: 'Aileron Italic';
+  src: url(".assets/Aileron-italic.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron Thin';
+  src: url(".assets/Aileron-thin.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron UltraLight';
+  src: url(".assets/Aileron-ultralight.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron Thin Italic';
+  src: url(".assets/Aileron-thinItalic.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron UltraLight Italic';
+  src: url(".assets/Aileron-ultralightItalic.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron Light';
+  src: url(".assets/Aileron-Light.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron Light Italic';
+  src: url(".assets/Aileron-LightItalic.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron SemiBold';
+  src: url(".assets/Aileron-SemiBold.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron SemiBold Italic';
+  src: url(".assets/Aileron-SemiBoldItalic.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron Bold';
+  src: url(".assets/Aileron-Bold.woff") format("woff");
+    }
+    
+@font-face {
+    font-family: 'Aileron Bold Italic';
+  src: url(".assets/Aileron-BoldItalic.woff") format("woff");
+    }
+
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Aileron SemiBold";
+   margin: 2em;
+  font-size: 16px;
+}
+
+
+h1 {
+  font-family: 'Aileron Bold';
+  text-align: center;
+  margin: auto;
+  margin-top: 400px;
+  text-shadow :  5px 5px 10px rgba(0,0,0,0.8);
+}
+
+.menu {
+  font-size:1em;
+}
+
+
+
+.light {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.shadow {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.apparent {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: 20px;
+}
+
+.subtleness {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding: 20px;
+  font-family: "Aileron Italic";
+}
+
+.text-showup {
+  transition: .3s ease;
+}
+
+.text {
+  position: relative;
+  visibility: hidden;
+  text-align: center;
+  font-family: "Aileron Light";
+  font-size: 100px;
+  padding: 20px;
+  margin: auto;
+}
+
+.one {
+  margin: 20px;
+}
+
+.two {
+  margin: 20px;
+  opacity: 0.5;
+}
+
+.three {
+  margin: 20px;
+  opacity: 0.1;
+}
+
+
+.text-showup:hover {
+  opacity: 1;
+}
+
+.text-showup:hover .text {
+  visibility: visible;
+}
+
+.main-text {
+  visibility:visible;
+}
+
+.main-text:hover {
+  visibility: hidden;
+}

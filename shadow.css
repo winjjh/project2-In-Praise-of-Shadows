@@ -4,17 +4,17 @@ body {
     font-family: "Aileron regular";
     margin: 2em;
     font-size: 16px;
-    background: black;
-}
+  }
 
 .main {
-    color: white;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .shadow-one {
     padding: 20px;
     transition: .3s ease;
-
 }
 
 .shadow-two {
@@ -38,7 +38,7 @@ body {
     font-style: italic;
     padding: 10px;
     opacity: 1.5;
-    color: #faf6ca;
+    color: #797979;
 }
 
 .shadow-one:hover {
@@ -58,7 +58,7 @@ body {
     font-style: italic;
     padding: 10px;
     opacity: 1;
-    color: #faf6ca;
+    color: #797979;
 }
 
 .shadow-two:hover {
@@ -78,7 +78,7 @@ body {
     font-style: italic;
     padding: 10px;
     opacity: 0.7;
-    color: #faf6ca;
+    color: #797979;
 }
 
 .shadow-three:hover {
@@ -99,12 +99,8 @@ body {
     font-style: italic;
     padding: 10px;
     opacity: 0.5;
-    color: #faf6ca;
+    color: #797979;
 }
-
-.shadow-four:hover {
-    opacity: 1;
-  }
   
   .shadow-four:hover .shadow-four-showup {
     visibility: visible;

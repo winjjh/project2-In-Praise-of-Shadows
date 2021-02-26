@@ -1,0 +1,172 @@
+/* CSS files add styling rules to your content */
+@font-face {
+    font-family: "Aileron Regular";
+    src: url("./assets/Aileron-Regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Italic";
+    src: url("./assets/Aileron-italic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Thin";
+    src: url("./assets/Aileron-thin.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron UltraLight";
+    src: url("./assets/Aileron-ultralight.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Thin Italic";
+    src: url("./assets/Aileron-thinItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron UltraLight Italic";
+    src: url("./assets/Aileron-ultralightItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Light";
+    src: url("./assets/Aileron-Light.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Light Italic";
+    src: url("./assets/Aileron-LightItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron SemiBold";
+    src: url("./assets/Aileron-SemiBold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron SemiBold Italic";
+    src: url("./assets/Aileron-SemiBoldItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Bold";
+    src: url("./assets/Aileron-Bold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Bold Italic";
+    src: url("./assets/Aileron-BoldItalic.woff") format("woff");
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Aileron SemiBold";
+    margin: 2em;
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-family: "Aileron regular";
+  }
+  
+  .first {
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    top: 35%;
+    bottom: 35%;
+    line-break: break all;
+  }
+  
+  .stay-main {
+    letter-spacing: 20%;
+    text-align: justify;
+    text-align: center;
+    font-size: 2em;
+    color: #FFDE9D;
+    font-family: "Aileron Bold";
+  }
+  
+  .second {
+    visibility: hidden;
+    transform: rotate(10deg);
+    font-weight: 1.5em;
+    width: 200%;
+    position: absolute;
+    right: -40%;
+    top: -100%;
+    color: #484848;
+  
+  }
+  
+  .third {
+    visibility: hidden;
+    transform: rotate(15deg);
+    font-weight: 1.5em;
+    width: 200%;
+    position: absolute;
+    right: -40%;
+    top: -20%;
+    color: #707070;
+  }
+  
+  .forth {
+    visibility: hidden;
+    transform: rotate(22deg);
+    font-weight: 1.5em;
+    width: 150%;
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+    color: #C5C5C5;
+  }
+  
+  .fifth {
+    visibility: hidden;
+    transform: rotate(30deg);
+    font-weight: 1.5em;
+    width: 150%;
+    position: absolute;
+    right: -0%;
+    bottom: -100%;
+    color: #E4E4E4;
+  }
+  
+  .six {
+    visibility: hidden;
+    transform: rotate(35deg);
+    font-weight: 1.5em;
+    width: 150%;
+    position: absolute;
+    right: -0%;
+    bottom: -200%;
+    color: #F1F1F1;
+  }
+  
+  .first:hover {
+    visibility: hidden;
+  }
+  
+  .first:hover .second {
+    visibility: visible;
+  }
+  
+  .first:hover .third {
+    visibility: visible;
+  }
+  
+  .first:hover .forth {
+    visibility: visible;
+  }
+  
+  
+  .first:hover .fifth {
+    visibility: visible;
+  }
+  
+  
+  .first:hover .six {
+    visibility: visible;
+  }

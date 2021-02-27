@@ -1,0 +1,195 @@
+/* CSS files add styling rules to your content */
+@font-face {
+    font-family: "Aileron Regular";
+    src: url("./assets/Aileron-Regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Italic";
+    src: url("./assets/Aileron-italic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Thin";
+    src: url("./assets/Aileron-thin.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron UltraLight";
+    src: url("./assets/Aileron-ultralight.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Thin Italic";
+    src: url("./assets/Aileron-thinItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron UltraLight Italic";
+    src: url("./assets/Aileron-ultralightItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Light";
+    src: url("./assets/Aileron-Light.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Light Italic";
+    src: url("./assets/Aileron-LightItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron SemiBold";
+    src: url("./assets/Aileron-SemiBold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron SemiBold Italic";
+    src: url("./assets/Aileron-SemiBoldItalic.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Bold";
+    src: url("./assets/Aileron-Bold.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Aileron Bold Italic";
+    src: url("./assets/Aileron-BoldItalic.woff") format("woff");
+  }
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  .one {
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid red;
+  }
+  .two {
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    color: #575757;
+  }
+  
+  .three {
+    padding: 20px;
+    text-align: left;
+    font-size: 0.7em;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border: 1px solid peachpuff;
+  }
+  
+  .fourth {
+    padding: 20px;
+    text-align: right;
+    font-size: 0.7em;
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    width: 82%;
+    color: #737373;
+    border: 1px solid pink;
+  }
+
+  .fifth {
+    padding: 20px;
+    text-align: right;
+    font-size: 0.7em;
+    position: absolute;
+    top: 80%;
+    right: 0%;
+    width: 82%;
+    color: #737373;
+    border: 1px solid greenyellow;
+  }
+  
+  .one-animation {
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 9%;
+    left: 10%;
+    color: #FFE6B5;
+    letter-spacing: .15em; /* Adjust as needed */
+    border: 1px solid green;
+
+  }
+  
+  
+  
+  .two-animation {
+    padding: 20px;
+    text-align: left;
+    font-size: 10px;
+    position: absolute;
+    top: 22%;
+    left: 21%;
+    letter-spacing: .15em; /* Adjust as needed */
+    color: #575757;
+    border: 1px solid pink;
+  }
+  
+  .three-animation {
+    padding: 20px;
+    text-align: left;
+    font-size: 0.7em;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border: 1px solid li;
+    letter-spacing: .15em; /* Adjust as needed */
+    color: #FFE6B5;
+    border: 1px solid blue;
+  }
+
+  .fourth-animation {
+    padding: 20px;
+    text-align: left;
+    font-size: 0.7em;
+    position: absolute;
+    top: 60%;
+    border: 1px solid li;
+    letter-spacing: .15em; /* Adjust as needed */
+    color: #FFE6B5;
+    border: 1px solid blueviolet;
+  }
+
+  .fifth-animation {
+    padding: 20px;
+    text-align: left;
+    font-size: 0.7em;
+    position: absolute;
+    top: 77%;
+    right: 0%;
+    border: 1px solid plum;
+    letter-spacing: .15em; /* Adjust as needed */
+    color: #FFE6B5;
+    border: 1px solid yellow;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  

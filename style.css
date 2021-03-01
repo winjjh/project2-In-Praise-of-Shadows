@@ -89,6 +89,7 @@ h1 {
   font-size: 18px;
   padding: 20px;
   text-decoration: none;
+  color: #FFD265;
 }
 
 .shadow {
@@ -113,6 +114,7 @@ h1 {
   left: 16px;
   padding: 20px;
   font-family: "Aileron Italic";
+  text-decoration: none;
 }
 
 .text-showup {
@@ -145,6 +147,10 @@ h1 {
   margin: 20px;
   opacity: 0.1;
 }
+
+a {
+  color: black;
+ }
 
 .text-showup:hover {
   opacity: 1;

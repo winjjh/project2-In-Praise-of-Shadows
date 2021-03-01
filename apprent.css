@@ -77,25 +77,36 @@
     transform: translate(-50%, -50%);
   }
   
-  .one {
+  .home {
+    text-decoration: none;
+    position: absolute;
+    right: -40%;
+    font-size: 16px;
+}
+
+a {
+  color: black;
+ }
+
+  .apprent-one {
     padding: 20px;
     margin-left: 18%;
     margin-right: 18%;
   }
   
-  .two {
+  .apprent-two {
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
    }
   
-  .three {
+  .apprent-three {
     padding: 20px;
     margin-left: 2%;
     margin-right: 2%;
   }
   
-  .one:hover {
+  .apprent-one:hover {
     font-family: "Aileron Thin";
     font-style: italic;
     font-size: 24px;
@@ -103,20 +114,20 @@
     margin-top: 10%;;
   }
 
-.two:hover {
+.apprent-two:hover {
     font-family: "Aileron Italic";
     font-size: 24px;
     line-height: 40px;
     margin-top: 10%;;
   }
 
-  .three:hover {
+  .apprent-three:hover {
     font-family: "Aileron SemiBold Italic";
     font-size: 32px;
     line-height: 40px;
     margin-top: 10%;
   }
 
-  .one:hover .two .three {
+  .apprent-one:hover .two .three {
       color: #CFCFCF;
   }

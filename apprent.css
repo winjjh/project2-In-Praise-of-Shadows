@@ -75,6 +75,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 10px;
+    width: 100%;
   }
   
   .home {
@@ -88,6 +90,65 @@ a {
   color: black;
  }
 
+  .apprent-one {
+    padding: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+  .apprent-two {
+    padding: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+   }
+  
+  .apprent-three {
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .apprent-one:hover {
+    font-family: "Aileron Thin";
+    font-style: italic;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10%;;
+  }
+
+.apprent-two:hover {
+    font-family: "Aileron Italic";
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10%;;
+  }
+
+  .apprent-three:hover {
+    font-family: "Aileron SemiBold Italic";
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10%;
+  }
+
+  .apprent-one:hover .two .three {
+      color: #CFCFCF;
+  }
+
+/* Common Device Sizes via https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 767px) {
+  .main {
+    border-spacing: 20px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    width: 50%;
+  }
   .apprent-one {
     padding: 20px;
     margin-left: 18%;
@@ -127,7 +188,4 @@ a {
     line-height: 40px;
     margin-top: 10%;
   }
-
-  .apprent-one:hover .two .three {
-      color: #CFCFCF;
-  }
+}

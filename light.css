@@ -1,48 +1,48 @@
 /* CSS files add styling rules to your content */
 @font-face {
-    font-family: "Aileron Regular";
-    src: url("./assets/Aileron-Regular.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Italic";
-    src: url("./assets/Aileron-italic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Thin";
-    src: url("./assets/Aileron-thin.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron UltraLight";
-    src: url("./assets/Aileron-ultralight.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Thin Italic";
-    src: url("./assets/Aileron-thinItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron UltraLight Italic";
-    src: url("./assets/Aileron-ultralightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Light";
-    src: url("./assets/Aileron-Light.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Light Italic";
-    src: url("./assets/Aileron-LightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron SemiBold";
-    src: url("./assets/Aileron-SemiBold.woff") format("woff");
-  }
+  font-family: "Cormorant Regular";
+  src: url("./assets/Cormorant-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Italic";
+  src: url("./assets/Cormorant-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Light";
+  src: url("./assets/Cormorant-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant LightItalic";
+  src: url("./assets/Cormorant-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Bold";
+  src: url("./assets/Cormorant-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant SemiBold";
+  src: url("./assets/Cormorant-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant SemiBoldItalic";
+  src: url("./assets/Cormorant-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant  Medium";
+  src: url("./assets/Cormorant-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant MediumItalic";
+  src: url("./assets/Cormorant-SemiBoldItalic.woff2") format("woff2");
+}
   
   @font-face {
     font-family: "Aileron SemiBold Italic";
@@ -62,13 +62,13 @@
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Aileron SemiBold";
+    font-family: "Cormorant SemiBold";
     margin: 2em;
     font-size: 16px;
   }
   
   h1 {
-    font-family: "Aileron regular";
+    font-family: "Cormorant regular";
   }
   
   .first {
@@ -78,6 +78,7 @@
     top: 35%;
     bottom: 35%;
     line-break: break all;
+    width: 200%;
   }
   
   .home {
@@ -85,6 +86,7 @@
       position: absolute;
       right: 5%;
       font-size: 12px;
+      visibility: hidden;
   }
 
   a {
@@ -99,8 +101,8 @@
     color: #FFDE9D;
     position: absolute;
     top: 0%;
-    left: 0%;
-    font-family: "Aileron Bold";
+    font-family: "Cormorant Bold";
+    width: 30%;
   }
   
   .second {
@@ -190,8 +192,26 @@
 @media only screen and (min-width: 767px) {
   .stay-main {
     font-size: 1.5em;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-align: center;
+    color: #FFDE9D;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 85%;
   }
   .home {
     font-size: 16px;
+    visibility: visible;
+}
+.first {
+  position: absolute;
+  right: 20%;
+  left: 20%;
+  top: 35%;
+  bottom: 35%;
+  line-break: break all;
+  width: 60%;
 }
 }

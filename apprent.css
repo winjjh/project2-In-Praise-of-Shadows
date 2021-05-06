@@ -1,70 +1,55 @@
 /* CSS files add styling rules to your content */
 @font-face {
-    font-family: "Aileron Regular";
-    src: url("./assets/Aileron-Regular.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Italic";
-    src: url("./assets/Aileron-italic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Thin";
-    src: url("./assets/Aileron-thin.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron UltraLight";
-    src: url("./assets/Aileron-ultralight.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Thin Italic";
-    src: url("./assets/Aileron-thinItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron UltraLight Italic";
-    src: url("./assets/Aileron-ultralightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Light";
-    src: url("./assets/Aileron-Light.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Light Italic";
-    src: url("./assets/Aileron-LightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron SemiBold";
-    src: url("./assets/Aileron-SemiBold.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron SemiBold Italic";
-    src: url("./assets/Aileron-SemiBoldItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Bold";
-    src: url("./assets/Aileron-Bold.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: "Aileron Bold Italic";
-    src: url("./assets/Aileron-BoldItalic.woff") format("woff");
-  }
+  font-family: "Cormorant Regular";
+  src: url("./assets/Cormorant-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Italic";
+  src: url("./assets/Cormorant-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Light";
+  src: url("./assets/Cormorant-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant LightItalic";
+  src: url("./assets/Cormorant-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant Bold";
+  src: url("./assets/Cormorant-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant SemiBold";
+  src: url("./assets/Cormorant-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant SemiBoldItalic";
+  src: url("./assets/Cormorant-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant  Medium";
+  src: url("./assets/Cormorant-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Cormorant MediumItalic";
+  src: url("./assets/Cormorant-SemiBoldItalic.woff2") format("woff2");
+}
   
   body {
     margin: 2em;
   }
   
   h1 {
-    font-family: "Aileron Regular";
+    font-family: "Cormorant Regular";
   }
   
   .main {
@@ -94,6 +79,7 @@ a {
     padding: 20px;
     margin-left: 0%;
     margin-right: 0%;
+    margin-top: 5%;
   }
   
   .apprent-two {
@@ -109,22 +95,22 @@ a {
   }
   
   .apprent-one:hover {
-    font-family: "Aileron Thin";
+    font-family: "Cormorant Light";
     font-style: italic;
     font-size: 18px;
     line-height: 25px;
-    margin-top: 10%;;
+    margin-top: 40%;
   }
 
 .apprent-two:hover {
-    font-family: "Aileron Italic";
+    font-family: "Cormorant MediumItalic";
     font-size: 18px;
     line-height: 25px;
     margin-top: 10%;;
   }
 
   .apprent-three:hover {
-    font-family: "Aileron SemiBold Italic";
+    font-family: "Cormorant SemiBoldItalic";
     font-size: 20px;
     line-height: 25px;
     margin-top: 10%;
@@ -153,6 +139,7 @@ a {
     padding: 20px;
     margin-left: 18%;
     margin-right: 18%;
+    margin-top: 10%;
   }
   
   .apprent-two {
@@ -168,24 +155,27 @@ a {
   }
   
   .apprent-one:hover {
-    font-family: "Aileron Thin";
+    font-family: "Cormorant Light";
     font-style: italic;
     font-size: 24px;
     line-height: 40px;
-    margin-top: 10%;;
+    margin-top: 20%;
   }
 
 .apprent-two:hover {
-    font-family: "Aileron Italic";
+    font-family: "Cormorant MediumItalic";
     font-size: 24px;
     line-height: 40px;
     margin-top: 10%;;
   }
 
   .apprent-three:hover {
-    font-family: "Aileron SemiBold Italic";
+    font-family: "Cormorant SemiBoldItalic";
     font-size: 32px;
     line-height: 40px;
     margin-top: 10%;
+  }
+  .home {
+    margin-top: 20px;
   }
 }
